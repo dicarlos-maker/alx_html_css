@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.navbar {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 161px;
+    height: 32px;
+    top: 92px;
+    left: 200px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+
+.hero {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_content {
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_inner {
+    padding-left: 150px;
+    width: 760px;
+    justify-content: center;
+}
+
+.hero h1 {
+    margin-bottom: 40px;
+    width: 578px;
+    height: 40px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero p {
+ 
+    height: 20px;
+    top: 40px;
+    left: 141px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.paragraph {
+    margin-top: 60px;
+    width: 637px;
+    height: 104px;
+    top: 209px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button {
+    width: 162px;
+    height: 44px;
+    top: 100px;
+    left: 237px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ffffff;
+    background: #FF6565;
+    border: 0;
+    border-radius: 25px;
+   
+    justify-content: center;
+}
+
+
+.content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.content_inner {
+    width: 760px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_inner h2 {
+    width: 190px;
+    height: 40px;
+    left: 224px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: SourceSansPro;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+
+}
+
+.category {
+    padding: 0 45px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+
+.testimonials {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.testimony {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimony_inner {
+    width: 760px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony_inner h2 {
+    width: 448px;
+    height: 40px;
+    top: 141px;
+    left: 477px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: SourceSansPro;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.testimony_inner p {
+    width: 637px;
+    height: 104px;
+    top: 221px;
+    left: 382px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stats {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.stat {
+    padding: 0 45px;
+}
+
+
+.contact {
+    justify-content: center;
+
+}
+
+.form {
+    justify-content: center;
+    width: 335px;
+    height: 373px;
+    top: 2254px;
+    left: 533px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.footer {
+
+    height: 249px;
+    top: 2757px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #071629;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+
+.info i {
+    width: 30px;
+    height: 30px;
+    top: 90px;
+    left: 1070px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ffffff;    
+
+}
+
+.copyright {
+    width: 98px;
+    height: 15px;
+    top: 195px;
+    left: 651px;
+    gap: 0px;
+    opacity: 0.35px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    text-align: left;
+    color: #ffffff;
+
+
+}

@@ -1,0 +1,131 @@
+.wrapper {
+    background-image: url(./images/Object.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    color: #fff;
+    /* Text color for contrast */
+    padding: 20px;
+    /* Adjust padding if needed */
+}
+
+nav {
+    display: flex;
+    /* Make navigation elements flexible for better layout */
+    justify-content: space-between;
+    /* Distribute elements horizontally */
+    align-items: center;
+    /* Align elements vertically */
+}
+
+nav li,
+a {
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    color: #ffffff;
+}
+
+span {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    /* Make the hero section a flex container */
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* Center elements horizontally */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.hero h1 {
+    text-align: center;
+    /* Center the heading */
+}
+
+.hero .instructors {
+    display: flex;
+    /* Make instructor elements a flexbox container */
+    flex-wrap: wrap;
+    /* Allow elements to wrap onto multiple lines */
+    justify-content: space-between;
+    /* Distribute elements horizontally */
+    margin-top: 20px;
+    /* Add some top margin */
+}
+
+.hero .instructors div {
+    text-align: center;
+    /* Center text within each instructor block */
+    margin-bottom: 10px;
+    /* Add some bottom margin */
+    width: calc(25% - 20px);
+    /* Set width for each instructor block with some margin compensation */
+}
+
+.hero .instructors img {
+    margin-bottom: 5px;
+    /* Add some margin below the image */
+}
+
+
+button {
+    width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #C271FF;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 0;
+    text-align: center;
+
+}
+
+.testimonials {
+    display: flex; /* Make the testimonials section a flex container */
+    align-items: center; /* Vertically center elements */
+    margin-bottom: 20px;
+    background: #C271FF;
+    
+}
+
+footer {
+
+    background: #071629;
+
+
+
+}
